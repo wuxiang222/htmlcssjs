@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弹性布局表单</title>
+    <link rel="stylesheet" href="/css/form-flex.css">
+</head>
+<body>
+    <form action="/" autocomplete="off">
+        <div class="form-row">
+            <div class="form-col">
+                <label for="">姓名：</label>
+                <input type="text" name="username" multiple>
+            </div>
+            <div class="form-col">
+                <label for="">年龄：</label>
+                <input type="text" name="age">
+            </div>
+            <div class="form-col">
+                <label for="">国籍:</label>
+                <select name="nationality" multiple>
+                    <option value="中国">中国</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="英国">英国</option>
+                </select>
+            </div>
+        </div>
+    </form>
+
+    <script src="/js/form.js"></script>
+</body>
+</html>

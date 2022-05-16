@@ -1,0 +1,23 @@
+.form-row{
+    display: flex;
+}
+.form-row>*{
+    width:100%
+}
+.form-col{
+    display: flex;
+    margin-bottom: 5px;
+}
+.form-col>label{
+    width:40%;
+    text-align: right;
+    padding-right: 1em;
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 30px;
+}
+.form-col>input,.form-col>select{
+    width:60%;
+    height: 30px;
+    box-sizing: border-box;
+}
